@@ -41,13 +41,13 @@ auth.set_access_token(config.TWITTER_ACCESS_TOKEN, config.TWITTER_ACCESS_TOKEN_S
 api = tweepy.API(auth)
 
 #this is the title 
-st.title("El mercado Financiero en español")
+st.title("Financial Stocks")
 # st.header("Welcome Financial Stocks ")
 
 #writting the title 
 st.write("""
-# Mercado Financiero en Español.
-Apertura del volumen stocks en Google.
+#Google.
+Open stocks in Google.
 
 """)
 #PREDICTION SECTION 
@@ -162,8 +162,8 @@ option = st.sidebar.selectbox("Dasboard",('stocktwits','twitter','Walk street', 
 st.header(option)
 
 st.write("""
-# Que dice la comunidades del mercado en Twitter 
-Como se ve el dia a dia de las transacciones en la redes sociales.
+# Twitter community 
+What the community say about the market.
 
 """)
 
